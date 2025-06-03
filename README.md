@@ -1,8 +1,15 @@
 # Landing Page Project
 
-This repository contains the solution for the "Landing Page" project from 'The Odin Project' | Foundations Course.
+This repository contains the solution for the "Landing Page" project from 'The Odin Project'.
+This project aims to demonstrate fundamental HTML and CSS skills by replicating a given design.
 
-## Technologies Used
+## Project Details
+
+**Developed as part of:** The Odin Project:Landing Page | Foundation Course
+**Creation Date:** May 2025
+**Current Status:**  In progress (for learning purposes)
+
+### Technologies Used
 
 * **HTML5**
 * **CSS3**
