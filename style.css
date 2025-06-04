@@ -1,0 +1,117 @@
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Roboto", Verdana,serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header,
+footer {
+    background-color:#1F2937;
+}
+
+.header-wrapper{
+    padding: 20px 150px 90px 150px;
+    max-width: 1200px; /* body zauzima cijelu širinu zbog pozadina, a wrapper-ograničavanje i centriranje sadržaja. */
+    margin: 0 auto;    /* centriranje wrapa unutar headera*/
+
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    }
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+
+.logo{
+font-size:24px;
+color:#F9FAF8;
+font-weight: bolder;
+}
+
+.main-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+   
+  }
+
+.main-header img{
+    max-width:100%;
+    height:auto;
+    flex:1;
+}
+
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    flex:1;
+}
+
+.hero button{
+    width:fit-content;
+
+}
+
+.hero-subtext,
+ul a{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.hero-main{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    width:70%;
+}
+
+
+.navigation{
+    display:flex;
+    margin-bottom: 90px;
+}
+
+
+ul {
+    display:flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    gap:30px;
+}
+
+button,
+.action{
+    background-color: #3882F6;
+}
+
+button{
+    color:#F9FAF8;
+    border-radius:10px;
+    padding:10px 25px;
+    border:none;
+}
+
+
+.articles img{
+    outline:2px solid black;
+    border-radius: 10px;
+}
