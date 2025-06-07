@@ -33,11 +33,19 @@ ul {
     width: 100%;
 }
 
-.header-wrapper,
-.quote-wrapper{
+.header-wrapper{
     padding: 20px 150px 90px 150px;
-
 }
+
+.info-wrapper{
+    padding:30px 200px 40px 200px;
+}
+
+.quote-wrapper{
+    padding:80px 200px 60px 200px;
+}
+
+
 
 /*-- Header, Footer --*/
 
@@ -112,7 +120,7 @@ ul a{
 .articles{
     display:flex;
     justify-content:center;
-    padding:35px 10px 30px 10px;;
+    padding:35px 10px 30px 10px;
     gap:35px;
     flex:1;
 }
@@ -132,10 +140,13 @@ ul a{
 .articles img{
     width:150px;
     height:150px;
+    flex-shrink: 1;
+    flex-grow:0;
+    max-width:100%;
+    object-fit:cover;
     outline:4px solid #3882f6;
     border-radius:15px;
 }
-
 
 /*-- Quote section --*/
 
@@ -144,11 +155,19 @@ ul a{
 }
 
 .quote{
+    text-align:justify;
+    padding-bottom: 15px;
     font-size:36px;
     color: #1F2937;
     font-weight:300;
     font-style: italic;
-    border:2px solid red;
+
+}
+
+.author{
+    text-align:right;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 
@@ -156,6 +175,7 @@ ul a{
 
 .action{
 background-color: #3882F6;
+border:2px solid red;
 }
 
 /*-- Buttons --*/
