@@ -3,7 +3,7 @@
 This repository contains the solution for the "Landing Page" project from 'The Odin Project'. This project aims to demonstrate fundamental HTML and CSS skills by replicating a given design.
 
 
-[Watch Demo](https://tvoje_korisnicko_ime.github.io/odin-project-landing-page/)
+[Watch Demo](https://dinruz.github.io/odin-project-landing-page/)
 
 
 ## Project Details
